@@ -12,7 +12,9 @@ void main() {
 for(int number_of_star=1;number_of_star<=number_of_line;number_of_star++) {
   stdout.write(" *");
 }
-
+    for(int number_of_dash=4;number_of_dash>=number_of_line;number_of_dash--){
+      stdout.write(" _");
+    }
 
 
     stdout.write("\n");
